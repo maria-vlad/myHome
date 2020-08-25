@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <WildcardControlFlowRule
+      id="WildcardControlFlowRule2">
+      <property
+         name="activityId">*</property>
+      <property
+         name="x">430.0</property>
+      <property
+         name="y">193.29883</property>
+   </WildcardControlFlowRule>
+   <View
+      id="View3">
+      <property
+         name="activityId">home</property>
+      <property
+         name="x">436.5</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>home&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="y">423.09766</property>
+      <property
+         name="page">/home.jspx</property>
+      <property
+         name="exceptionHandler">false</property>
+   </View>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase4"
+      from="WildcardControlFlowRule2"
+      to="View3">
+      <property
+         name="fromOutcome">goHome</property>
+      <property
+         name="sdm:polyPoints">B50,430.0,235.94824,436.5,368.74707,T50</property>
+   </ControlFlowCase>
+</SDM>
